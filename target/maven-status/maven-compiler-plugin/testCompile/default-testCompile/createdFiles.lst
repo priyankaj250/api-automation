@@ -1,7 +1,0 @@
-tests\UserAuthTests.class
-tests\UpdateBookTest.class
-tests\GetBookTest.class
-utils\ApiClient.class
-tests\DeleteBookTest.class
-tests\CreateBookTest.class
-utils\ConfigManager.class
