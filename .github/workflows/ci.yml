@@ -76,8 +76,24 @@ jobs:
           name: allure-report
           path: allure-report
 
-      - name: Upload Allure Report to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report
+      - name: Deploy Allure Report to GitHub Pages
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git clone --branch=gh-pages https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} allure-gh-pages || git clone https://github.com/${{ github.repository }} allure-gh-pages
+          cd allure-gh-pages
+          
+          # Remove old files
+          git rm -rf ./*
+          
+          # Copy new report files
+          cp -r ../allure-report/* .
+          
+          # Commit and push changes
+          git add .
+          git commit -m "Update Allure report from workflow run #${{ github.run_number }}" || echo "No changes to commit"
+          git push origin gh-pages
