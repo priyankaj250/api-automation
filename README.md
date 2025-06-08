@@ -21,7 +21,7 @@ This is the API Automation framework for testing the Bookstore service APIs.
 
 ---
 
-## How to Run Tests
+## How to Run Tests locally
 
 1. Make sure the **Bookstore service** is running locally and accessible.
 
@@ -35,13 +35,14 @@ mvn clean test
 
 ---
 
-## 📊 Generate Allure Report
+## 📊 Generate Allure Report locally
 ```bash
 allure serve target/allure-results
 ```
 
 ## ⚙️ CI/CD
-Automatically runs on each push using GitHub Actions, including Allure report artifacts.
+Automatically runs on each push using GitHub Actions. 
+Also generates and uploads the Allure report at https://priyankaj250.github.io/api-automation/.
 
 ## 🧪 Test Strategy
 - Covers Create, Read, Update, Delete endpoints.
