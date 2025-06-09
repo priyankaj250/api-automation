@@ -16,16 +16,20 @@ This is the API Automation framework for testing the Bookstore service APIs.
 
 - Java JDK 8 or higher installed
 - Maven installed (if using Maven for build)
-- Bookstore service running locally (e.g., at `http://localhost:8000`)
 - Allure commandline installed for report generation ([Installation Guide](https://docs.qameta.io/allure/#_installing_a_commandline))
 
 ---
 
 ## How to Run Tests locally
 
-1. Make sure the **Bookstore service** is running locally and accessible.
+1. Make sure the **Bookstore service** is running locally. To run it, execute command
 
-2. Open a terminal/command prompt and navigate to the root directory of this project.
+```bash
+cd bookstore
+uvicorn main:app --reload
+```
+
+2. Open a new terminal/command prompt and navigate to the root directory of this project.
 
 3. To run all API tests, execute:
 
@@ -33,11 +37,17 @@ This is the API Automation framework for testing the Bookstore service APIs.
 mvn clean test
 ```
 
+4. To run on a specific env, execute:
+
+```bash
+mvn clean test -Denv=qa
+```
+
 ---
 
 ## 📊 Generate Allure Report locally
 ```bash
-allure serve target/allure-results
+allure serve allure-results
 ```
 
 ## ⚙️ CI/CD
