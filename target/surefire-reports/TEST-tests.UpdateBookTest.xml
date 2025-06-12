@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UpdateBookTest" time="0.527" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.UpdateBookTest" time="0.5" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\PRIYANKA\AppData\Local\Temp\surefire18091247476890449850\surefirebooter-20250612131719513_3.jar C:\Users\PRIYANKA\AppData\Local\Temp\surefire18091247476890449850 2025-06-12T13-17-19_336-jvmRun1 surefire-20250612131719513_1tmp surefire_0-20250612131719513_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\PRIYANKA\AppData\Local\Temp\surefire9839477938493314866\surefirebooter-20250612142238258_3.jar C:\Users\PRIYANKA\AppData\Local\Temp\surefire9839477938493314866 2025-06-12T14-22-38_001-jvmRun1 surefire-20250612142238258_1tmp surefire_0-20250612142238258_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\PRIYANKA\api-automation\target\test-classes;C:\Users\PRIYANKA\api-automation\target\classes;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\PRIYANKA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\PRIYANKA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\PRIYANKA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\PRIYANKA\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\PRIYANKA\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\PRIYANKA\AppData\Local\Temp\surefire18091247476890449850\surefirebooter-20250612131719513_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\PRIYANKA\AppData\Local\Temp\surefire9839477938493314866\surefirebooter-20250612142238258_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -58,7 +58,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testUpdateBook" classname="tests.UpdateBookTest" time="0.136">
+  <testcase name="testUpdateBook" classname="tests.UpdateBookTest" time="0.137">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:8000/login
 Proxy:			<none>
@@ -76,13 +76,13 @@ Body:
     "email": "user@example.com"
 }
 HTTP/1.1 200 OK
-date: Thu, 12 Jun 2025 07:47:23 GMT
+date: Thu, 12 Jun 2025 08:52:44 GMT
 server: uvicorn
 content-length: 180
 content-type: application/json
 
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQ1fQ.EmwwYY74E5e27fCu_5voPdL5OpT1zmvG8-rtxPjY1qI",
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzIwMTY1fQ.tn6xD7JmnsaFzjf0IQ1VHOzEc4rJQ-WdD0iiWOmndi8",
     "token_type": "bearer"
 }
 Request method:	POST
@@ -92,7 +92,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQ1fQ.EmwwYY74E5e27fCu_5voPdL5OpT1zmvG8-rtxPjY1qI
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzIwMTY1fQ.tn6xD7JmnsaFzjf0IQ1VHOzEc4rJQ-WdD0iiWOmndi8
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -105,9 +105,9 @@ Body:
     "name": "Original Book"
 }
 HTTP/1.1 200 OK
-date: Thu, 12 Jun 2025 07:47:23 GMT
+date: Thu, 12 Jun 2025 08:52:44 GMT
 server: uvicorn
-content-length: 104
+content-length: 105
 content-type: application/json
 
 {
@@ -115,16 +115,16 @@ content-type: application/json
     "name": "Original Book",
     "published_year": 2000,
     "book_summary": "Detailed summary",
-    "id": 96
+    "id": 100
 }
 Request method:	PUT
-Request URI:	http://localhost:8000/books/96
+Request URI:	http://localhost:8000/books/100
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=96
-Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQ1fQ.EmwwYY74E5e27fCu_5voPdL5OpT1zmvG8-rtxPjY1qI
+Path params:	id=100
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzIwMTY1fQ.tn6xD7JmnsaFzjf0IQ1VHOzEc4rJQ-WdD0iiWOmndi8
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -137,9 +137,9 @@ Body:
     "name": "Updated Book Name"
 }
 HTTP/1.1 200 OK
-date: Thu, 12 Jun 2025 07:47:23 GMT
+date: Thu, 12 Jun 2025 08:52:44 GMT
 server: uvicorn
-content-length: 117
+content-length: 118
 content-type: application/json
 
 {
@@ -147,11 +147,11 @@ content-type: application/json
     "name": "Updated Book Name",
     "published_year": 2023,
     "book_summary": "Updated summary",
-    "id": 96
+    "id": 100
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateNonExistentBook" classname="tests.UpdateBookTest" time="0.027">
+  <testcase name="testUpdateNonExistentBook" classname="tests.UpdateBookTest" time="0.022">
     <system-out><![CDATA[Request method:	PUT
 Request URI:	http://localhost:8000/books/99999
 Proxy:			<none>
@@ -159,7 +159,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=99999
-Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQ1fQ.EmwwYY74E5e27fCu_5voPdL5OpT1zmvG8-rtxPjY1qI
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzIwMTY1fQ.tn6xD7JmnsaFzjf0IQ1VHOzEc4rJQ-WdD0iiWOmndi8
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -169,7 +169,7 @@ Body:
     "name": "Non-existent Book"
 }
 HTTP/1.1 404 Not Found
-date: Thu, 12 Jun 2025 07:47:23 GMT
+date: Thu, 12 Jun 2025 08:52:44 GMT
 server: uvicorn
 content-length: 27
 content-type: application/json
