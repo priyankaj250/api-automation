@@ -25,6 +25,7 @@ public class UserAuthTests {
     @BeforeAll
     @Step("Load base URL before tests")
     public static void setup() {
+
         baseURL = ConfigManager.get("baseURI");
     }
 

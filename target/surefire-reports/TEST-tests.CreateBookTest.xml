@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.CreateBookTest" time="3.573" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.CreateBookTest" time="3.427" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\PRIYANKA\Downloads\api-automation-java\target\test-classes;C:\Users\PRIYANKA\Downloads\api-automation-java\target\classes;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\PRIYANKA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\PRIYANKA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\PRIYANKA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\PRIYANKA\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\PRIYANKA\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\PRIYANKA\api-automation\target\test-classes;C:\Users\PRIYANKA\api-automation\target\classes;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\PRIYANKA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\PRIYANKA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\PRIYANKA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\PRIYANKA\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\PRIYANKA\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\PRIYANKA\AppData\Local\Temp\surefire106521141901657114\surefirebooter-20250608013530196_3.jar C:\Users\PRIYANKA\AppData\Local\Temp\surefire106521141901657114 2025-06-08T01-35-29_956-jvmRun1 surefire-20250608013530196_1tmp surefire_0-20250608013530196_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\PRIYANKA\AppData\Local\Temp\surefire18091247476890449850\surefirebooter-20250612131719513_3.jar C:\Users\PRIYANKA\AppData\Local\Temp\surefire18091247476890449850 2025-06-12T13-17-19_336-jvmRun1 surefire-20250612131719513_1tmp surefire_0-20250612131719513_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\PRIYANKA\Downloads\api-automation-java\target\test-classes;C:\Users\PRIYANKA\Downloads\api-automation-java\target\classes;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\PRIYANKA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\PRIYANKA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\PRIYANKA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\PRIYANKA\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\PRIYANKA\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\PRIYANKA\api-automation\target\test-classes;C:\Users\PRIYANKA\api-automation\target\classes;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\PRIYANKA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\PRIYANKA\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\PRIYANKA\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\PRIYANKA\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\PRIYANKA\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\PRIYANKA\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\PRIYANKA\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\PRIYANKA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\PRIYANKA"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2025-04-15"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-24.0.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\PRIYANKA\Downloads\api-automation-java"/>
+    <property name="basedir" value="C:\Users\PRIYANKA\api-automation"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\PRIYANKA\AppData\Local\Temp\surefire106521141901657114\surefirebooter-20250608013530196_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\PRIYANKA\AppData\Local\Temp\surefire18091247476890449850\surefirebooter-20250612131719513_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\PRIYANKA\AppData\Local\Temp\"/>
     <property name="java.version" value="24.0.1"/>
-    <property name="user.dir" value="C:\Users\PRIYANKA\Downloads\api-automation-java"/>
+    <property name="user.dir" value="C:\Users\PRIYANKA\api-automation"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -76,13 +76,13 @@ Body:
     "email": "user@example.com"
 }
 HTTP/1.1 200 OK
-date: Sat, 07 Jun 2025 20:05:33 GMT
+date: Thu, 12 Jun 2025 07:47:21 GMT
 server: uvicorn
 content-length: 180
 content-type: application/json
 
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5MzI4NTMzfQ.uw3ad2_g-1KPVG-Es3_SyAJ3UelgBiappGyJmXlRuDo",
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQyfQ.W9O5qp4tQ_T6OuCdpP6LyZv-0rzTRwOx4xCKPHJsLG0",
     "token_type": "bearer"
 }
 Request method:	POST
@@ -92,7 +92,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5MzI4NTMzfQ.uw3ad2_g-1KPVG-Es3_SyAJ3UelgBiappGyJmXlRuDo
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQyfQ.W9O5qp4tQ_T6OuCdpP6LyZv-0rzTRwOx4xCKPHJsLG0
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -105,17 +105,17 @@ Body:
     "name": "Emma"
 }
 HTTP/1.1 200 OK
-date: Sat, 07 Jun 2025 20:05:33 GMT
+date: Thu, 12 Jun 2025 07:47:22 GMT
 server: uvicorn
 content-length: 107
 content-type: application/json
 
 {
-    "book_summary": "Very interesting book",
-    "id": 59,
     "author": "Jane Austen",
     "name": "Emma",
-    "published_year": 1815
+    "published_year": 1815,
+    "book_summary": "Very interesting book",
+    "id": 93
 }
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -123,7 +123,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateBookMissingFields" classname="tests.CreateBookTest" time="0.042">
+  <testcase name="testCreateBookMissingFields" classname="tests.CreateBookTest" time="0.035">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:8000/books/
 Proxy:			<none>
@@ -131,7 +131,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5MzI4NTMzfQ.uw3ad2_g-1KPVG-Es3_SyAJ3UelgBiappGyJmXlRuDo
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQyfQ.W9O5qp4tQ_T6OuCdpP6LyZv-0rzTRwOx4xCKPHJsLG0
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -139,11 +139,11 @@ Multiparts:		<none>
 Body:
 {
     "book_summary": "A heartwarming memoir about life lessons from a dying professor",
-    "published_year": 1997,
+    "published_year": 1999,
     "author": "Mitch Albom"
 }
 HTTP/1.1 500 Internal Server Error
-date: Sat, 07 Jun 2025 20:05:34 GMT
+date: Thu, 12 Jun 2025 07:47:23 GMT
 server: uvicorn
 content-length: 21
 content-type: text/plain; charset=utf-8
@@ -151,7 +151,7 @@ content-type: text/plain; charset=utf-8
 Internal Server Error
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateBookDuplicateId" classname="tests.CreateBookTest" time="0.091">
+  <testcase name="testCreateBookDuplicateId" classname="tests.CreateBookTest" time="0.079">
     <system-out><![CDATA[Request method:	POST
 Request URI:	http://localhost:8000/books/
 Proxy:			<none>
@@ -159,7 +159,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5MzI4NTMzfQ.uw3ad2_g-1KPVG-Es3_SyAJ3UelgBiappGyJmXlRuDo
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQyfQ.W9O5qp4tQ_T6OuCdpP6LyZv-0rzTRwOx4xCKPHJsLG0
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -172,17 +172,17 @@ Body:
     "name": "Emma"
 }
 HTTP/1.1 200 OK
-date: Sat, 07 Jun 2025 20:05:34 GMT
+date: Thu, 12 Jun 2025 07:47:23 GMT
 server: uvicorn
 content-length: 107
 content-type: application/json
 
 {
-    "book_summary": "Very interesting book",
-    "id": 60,
     "author": "Jane Austen",
     "name": "Emma",
-    "published_year": 1815
+    "published_year": 1815,
+    "book_summary": "Very interesting book",
+    "id": 94
 }
 Request method:	POST
 Request URI:	http://localhost:8000/books/
@@ -191,7 +191,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5MzI4NTMzfQ.uw3ad2_g-1KPVG-Es3_SyAJ3UelgBiappGyJmXlRuDo
+Headers:		Authorization=Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ5NzE2MjQyfQ.W9O5qp4tQ_T6OuCdpP6LyZv-0rzTRwOx4xCKPHJsLG0
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -202,10 +202,10 @@ Body:
     "published_year": 1815,
     "author": "Jane Austen",
     "name": "Emma",
-    "id": "60"
+    "id": "94"
 }
 HTTP/1.1 500 Internal Server Error
-date: Sat, 07 Jun 2025 20:05:34 GMT
+date: Thu, 12 Jun 2025 07:47:23 GMT
 server: uvicorn
 content-length: 21
 content-type: text/plain; charset=utf-8

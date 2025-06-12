@@ -66,7 +66,7 @@ public class CreateBookTest {
     @DisplayName("Create Book - Missing Required Fields (Negative)")
     @Description("This test checks that creating a book without 'name' fails with proper error response.")
     void testCreateBookMissingFields() {
-        JSONObject payload = createBookPayload(null, "Mitch Albom", 1997,
+        JSONObject payload = createBookPayload( null , "Mitch Albom" , 1999 ,
                 "A heartwarming memoir about life lessons from a dying professor");
 
         Response response = sendCreateBookRequest(payload);
